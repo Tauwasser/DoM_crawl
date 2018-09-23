@@ -90,7 +90,7 @@ def main():
                     # write back info so far
                     of.write(entry['md5']+ ';')
                     of.write(romName + ';')
-                    for field in ['size', 'type', 'date', 'datter', 'serial', 'pcb', 'rom', 'stamp']:
+                    for field in ['size', 'type', 'goodDump', 'date', 'datter', 'serial', 'pcb', 'rom', 'stamp']:
                         of.write(entry.get(field, '') + ';')
                     of.write('\n')
                 
@@ -106,13 +106,17 @@ def main():
                 }
                 
                 if (field1 == 'Type'):
-                    entry = {'type': field2}
+                    entry = {'type': field2, 'goodDump': str(True)}
+                    row_css_classes = [e for e in tr['class'] if e]
+                    if ('green' not in row_css_classes):
+                        print('{0:s}: {1!s}'.format(romName, row_css_classes))
+                        entry['goodDump'] = str(False)
                 elif (field1 in fields):
                     entry[fields[field1]] = field2
             
             of.write(entry['md5']+ ';')
             of.write(romName + ';')
-            for field in ['size', 'type', 'date', 'datter', 'serial', 'pcb', 'rom', 'stamp']:
+            for field in ['size', 'type', 'goodDump', 'date', 'datter', 'serial', 'pcb', 'rom', 'stamp']:
                 of.write(entry.get(field, '') + ';')
             of.write('\n')
     
