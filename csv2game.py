@@ -85,6 +85,10 @@ def main():
                 # filter CHN releases
                 continue
             
+            if ('(3DS Virtual Console)' in name):
+                # filter 3DS Virtual Console
+                continue
+            
             revision = 0
             m = regex.match(name)
             if (m is not None):
