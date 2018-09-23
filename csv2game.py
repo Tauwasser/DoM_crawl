@@ -58,7 +58,7 @@ def main():
             
             md5 = row[0]
             name = row[1]
-            goodDump = row[4] == 'True'
+            goodDump = row[4] == 'True' or row[4] == 'TRUE'
             serial = row[7]
             rom = row[9]
             
