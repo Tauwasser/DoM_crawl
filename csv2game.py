@@ -95,6 +95,7 @@ def main():
                 revision = revision_match[m.group(1)]
             
             prefix = serial
+            synthetic = False
             if (serial.count('-') > 1):
                 prefix = serial.rsplit('-', serial.count('-') - 1)[0]
             # default: region code already included in regular code
@@ -113,8 +114,9 @@ def main():
                 if (region is None):
                     print('Error: cannot determine region for {0:s}.'. format(name))
                     break
+                synthetic = True
             metadata[md5]['code'] = prefix + region + '-' + str(revision)
-            metadata[md5]['is_synthetic'] = True
+            metadata[md5]['is_synthetic'] = synthetic
     
     is_synthetic = 0
     has_code = 0
