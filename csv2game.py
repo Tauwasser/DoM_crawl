@@ -5,6 +5,7 @@ import os
 import sys
 import argparse
 import csv
+import yaml
 from re import compile
 
 def main():
@@ -18,7 +19,6 @@ def main():
     infiles = args.infile
     outfile, outfile_ext = os.path.splitext(args.outfile)
     
-    rows = 0
     metadata = dict()
     
     region_match = {
@@ -51,6 +51,7 @@ def main():
     regex = compile('.*\(Rev ([0123ABCD])\).*')
     
     for infile in infiles:
+        rows = 0
         with open(infile, 'r', newline='') as csvfile:
             csv_in = csv.reader(csvfile, delimiter=';')
             for row in csv_in:
@@ -151,15 +152,55 @@ def main():
             continue
         
         serial = entry['code'].split('-', 2)
-        game_id = serial[1][:-1]
+        if (len(serial) < 3):
+            print(serial)
+        game_id = serial[0] + '-' + serial[1][:-1] # keep CGB/DMG prefix
         region_id = serial[1][-1]
+        revision = int(serial[2])
         
         if (game_id not in game_map):
-            game_map[game_id] = {'type': serial[0]}
+            game_map[game_id] = {}
         
         game_data = game_map[game_id]
-        if (game_data['type'] != serial[0]):
-            print('Error: CGB and DMG have same serial: {0:s} vs. {1:s}!'.format(game_data['type'] + '-' + game_id, serial[0] + '-' + serial[1]))
+        
+        if (region_id not in game_data):
+            game_data[region_id] = {}
+        
+        if (revision in game_data[region_id]):
+            print('Error: duplicate game {0:s} for {1:s} vs {2:s}.'.format(game_id + region_id + '-' + str(revision), entry['name'], game_data[region_id][revision]['name']))
+            continue
+        
+        game_data[region_id][revision] = {'revision': revision, 'name': entry['name'], 'is_synthetic': entry['is_synthetic'], 'md5': md5, 'code': entry['code']}
 
+    with open(outfile + '.yaml', 'w', newline='') as yamlfile:
+        yaml.dump(game_map, yamlfile)
+    
+    with open(outfile + '_dmg.yaml', 'w', newline='') as yamlfile:
+        dmg_data = {k: v for k, v in game_map.items() if not(k.startswith('CGB-'))}
+        yaml.dump(dmg_data, yamlfile)
+    
+    with open(outfile + '_cgb.yaml', 'w', newline='') as yamlfile:
+        cgb_data = {k: v for k, v in game_map.items() if k.startswith('CGB-')}
+        yaml.dump(cgb_data, yamlfile)
+    
+    dmg_games = len(dmg_data)
+    dmg_revisions = 0
+    cgb_games = len(cgb_data)
+    cgb_revisions = 0
+    
+    for _, v in dmg_data.items():
+        for region in v:
+            for revision in v[region]:
+                dmg_revisions += 1
+
+    for _, v in cgb_data.items():
+        for region in v:
+            for revision in v[region]:
+                cgb_revisions += 1
+
+    print('Found {1:d} revisions for {0:d} DMG game entries.'.format(dmg_games, dmg_revisions))
+    print('Found {1:d} revisions for {0:d} CGB game entries.'.format(cgb_games, cgb_revisions))
+    return 0
+    
 if __name__ == '__main__':
     sys.exit(main())
