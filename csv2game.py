@@ -123,6 +123,8 @@ def main():
     
     with open(outfile, 'w', newline='') as csvfile:
         csv_out = csv.writer(csvfile, delimiter=';')
+        row = ['MD5', 'ROM Serial', 'Name (No-Intro)', 'is_synthetic']
+        csv_out.writerow(row)
         for md5, entry in metadata.items():
             if ('code' not in entry):
                 print(entry['name'])

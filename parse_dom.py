@@ -22,6 +22,7 @@ def main():
         return -1
     
     with open(outfile, 'w', encoding='utf-8') as of:
+        of.write(';'.join(['MD5', 'Name (No-Intro)', 'Size', 'Dump Type', 'Good Dump', 'Date', 'Datter', 'Cart Serial', 'PCB', 'ROM Serial', 'Stamp']) + '\n')
         for entry in os.scandir(indir):
         
             if (not(entry.name.endswith('.html'))):
