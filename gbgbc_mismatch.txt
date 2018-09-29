@@ -1,0 +1,25 @@
+Error: CGB and DMG have same serial: CGB-BFB vs. DMG-BFBJ! Fußball Manager vs Dancing Furby
+Error: CGB and DMG have same serial: DMG-AD3 vs. CGB-AD3J! Donkey Kong Land III vs Donkey Kong GB - Dinky Kong & Dixie Kong (Japan)
+Error: CGB and DMG have same serial: DMG-ADM vs. CGB-ADME! Die Maus vs Game Boy Color (USA) (Promo)
+Error: CGB and DMG have same serial: DMG-AG6 vs. CGB-AG6J! Goukaku Boy Series - Koukou Nyuushi Derujun - Kanji Mondai no Seifuku vs Jisedai Begoma Battle Beyblade (Japan) --> Fixed
+Error: CGB and DMG have same serial: CGB-BOO vs. DMG-BOOJ! Daa! Daa! Daa! - Totsuzen Card de Battle de Uranai de! (Japan) vs Karamuchou wa Oosawagi! - Okawari! (Japan) (NP, SGB Enhanced)  --> Fixed
+Error: CGB and DMG have same serial: DMG-ABL vs. CGB-ABLE! Bugs Bunny & Lola Bunny - Operation Carrots (Europe) vs Looney Tunes - Carrot Crazy (USA) --> Fixed
+Error: CGB and DMG have same serial: CGB-AZW vs. DMG-AZWJ! Microsoft - The 6 in 1 Puzzle Collection Entertainment/Puzzled Pack vs Ou Dorobou Jing
+Error: CGB and DMG have same serial: CGB-AAX vs. DMG-AAXJ! Koren PKMN Gold/Silver
+Error: CGB and DMG have same serial: CGB-AAX vs. DMG-AAXJ! Koren PKMN Gold/Silver
+Error: CGB and DMG have same serial: CGB-AAU vs. DMG-AAUJ! Koren PKMN Gold/Silver
+Error: CGB and DMG have same serial: CGB-AAU vs. DMG-AAUJ! Koren PKMN Gold/Silver
+Error: CGB and DMG have same serial: CGB-AAU vs. DMG-AAUS! Koren PKMN Gold/Silver
+Error: CGB and DMG have same serial: CGB-AAX vs. DMG-AAXS! Koren PKMN Gold/Silver
+Error: CGB and DMG have same serial: CGB-AAU vs. DMG-AAUP! Koren PKMN Gold/Silver
+Error: CGB and DMG have same serial: CGB-AAU vs. DMG-AAUD! Koren PKMN Gold/Silver
+Error: CGB and DMG have same serial: CGB-AAX vs. DMG-AAXD! Koren PKMN Gold/Silver
+Error: CGB and DMG have same serial: CGB-AAX vs. DMG-AAXP! Koren PKMN Gold/Silver
+Error: CGB and DMG have same serial: CGB-AAX vs. DMG-AAXF! Koren PKMN Gold/Silver
+Error: CGB and DMG have same serial: CGB-AAU vs. DMG-AAUF! Koren PKMN Gold/Silver
+Error: CGB and DMG have same serial: CGB-AAX vs. DMG-AAXI! Koren PKMN Gold/Silver
+Error: CGB and DMG have same serial: DMG-AOV vs. CGB-AOVP! Bomberman Quest (Europe) vs Pong - The Next Level (USA, Europe) --> Fixed
+Error: CGB and DMG have same serial: CGB-AEQ vs. DMG-AEQJ! F1 Racing Championship (Europe) vs Sei Hai Densetsu (Japan) --> Fixed
+Error: CGB and DMG have same serial: DMG-AVL vs. CGB-AVLE! V-Rally - Championship Edition (Europe) vs V-Rally - Championship Edition (USA)
+Error: CGB and DMG have same serial: CGB-AYD vs. DMG-AYDP! Pro Darts (USA) vs Yoda Stories (USA, Europe) --> Fixed
+Error: CGB and DMG have same serial: CGB-BSQ vs. DMG-BSQP! Sesame Street Sports (USA) vs Sesame Street Sports (Europe) --> Fixed
