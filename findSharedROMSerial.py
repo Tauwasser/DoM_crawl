@@ -82,7 +82,7 @@ def main():
                 else:
                     code = rom_parts[1]
                 
-                if (code.endswith('P') or code.endswith('E')):
+                if (code.endswith('P') or code.endswith('E') or code.endswith('U')):
                     game = code[:-1]
                     region = code[-1]
                     if (game not in disjoint_data):
@@ -104,7 +104,9 @@ def main():
         if (len(v) > 1):
             md5s = set([v[e]['md5'] for e in v])
             if (len(md5s) > 1):
-                row = [v['P']['md5'], v['E']['md5'], v['P']['rom'], v['E']['rom'], v['P']['name'], v['E']['name']]
+                key0 = 'P' if 'P' in v else 'U'
+                key1 = 'E' if 'E' in v else 'U'
+                row = [v[key0]['md5'], v[key1]['md5'], v[key0]['rom'], v[key1]['rom'], v[key0]['name'], v[key1]['name']]
                 row = [str(e) for e in row]
                 for ix, e in enumerate(row):
                     disjoint_sheet.write(disjoint_sheet_row, ix, e)
