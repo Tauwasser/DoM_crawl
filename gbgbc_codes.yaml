@@ -82,6 +82,10 @@ CGB-A7G:
   J:
     0: {code: CGB-A7GJ-0, is_synthetic: true, md5: 0EE28078D6270DF663647E8A3E3FEAF6,
       name: Pocket GT (Japan), revision: 0}
+CGB-A7P:
+  J:
+    0: {code: CGB-A7PJ-0, is_synthetic: false, md5: C23C356A1ED788942E7D0B2CDAC2FD36,
+      name: Granduel - Shinki Dungeon no Hihou (Japan) (Sample), revision: 0}
 CGB-A89:
   J:
     0: {code: CGB-A89J-0, is_synthetic: true, md5: 3DBEFE8C7CA45427696016902C2EE452,
@@ -889,6 +893,9 @@ CGB-B4Q:
       name: 'Monsters, Inc. (USA, Europe)', revision: 0}
     1: {code: CGB-B4QP-1, is_synthetic: false, md5: 4B684B00ECC0CF15536DC5AB58BDD470,
       name: 'Monsters, Inc. (Europe) (Rev A)', revision: 1}
+  E:
+    0: {code: CGB-B4QE-0, is_synthetic: false, md5: 5776965258EE78832E7EABC0DB66FF4B,
+      name: 'Monsters, Inc. (USA, Europe)', revision: 0}
   X:
     0: {code: CGB-B4QX-0, is_synthetic: false, md5: F3DAA6CE7708668405674C735BEA9745,
       name: 'Monsters, Inc. (Europe) (En,Es,Nl)', revision: 0}
@@ -986,6 +993,9 @@ CGB-B99:
       name: '102 Dalmatiens a la Rescousse, Les (France)', revision: 0}
   P:
     0: {code: CGB-B99P-0, is_synthetic: false, md5: 2B7E2442D503CE368FC93A9EBF0F70EF,
+      name: '102 Dalmatians - Puppies to the Rescue (USA, Europe)', revision: 0}
+  E:
+    0: {code: CGB-B99E-0, is_synthetic: false, md5: 2B7E2442D503CE368FC93A9EBF0F70EF,
       name: '102 Dalmatians - Puppies to the Rescue (USA, Europe)', revision: 0}
   S:
     0: {code: CGB-B99S-0, is_synthetic: false, md5: 2A65D5C037463FE93127D45D4145A0A6,
@@ -1544,6 +1554,10 @@ CGB-BES:
     0: {code: CGB-BESE-0, is_synthetic: false, md5: E20F2057C2143993C0F844097D0086D5,
       name: 'Extreme Sports with the Berenstain Bears (USA, Europe) (En,Fr,De,Es,It)',
       revision: 0}
+  P:
+    0: {code: CGB-BESP-0, is_synthetic: false, md5: E20F2057C2143993C0F844097D0086D5,
+      name: 'Extreme Sports with the Berenstain Bears (USA, Europe) (En,Fr,De,Es,It)',
+      revision: 0}
 CGB-BET:
   E:
     0: {code: CGB-BETE-0, is_synthetic: true, md5: 51091A6D773823B8731240676D9D25CF,
@@ -1634,6 +1648,9 @@ CGB-BFT:
 CGB-BFU:
   E:
     0: {code: CGB-BFUE-0, is_synthetic: false, md5: 69C68B13BB0DA057ACBAFE24E389E855,
+      name: 'Shrek - Fairy Tale Freakdown (USA, Europe) (En,Fr,De,Es,It)', revision: 0}
+  P:
+    0: {code: CGB-BFUP-0, is_synthetic: false, md5: 69C68B13BB0DA057ACBAFE24E389E855,
       name: 'Shrek - Fairy Tale Freakdown (USA, Europe) (En,Fr,De,Es,It)', revision: 0}
 CGB-BFV:
   J:
@@ -2834,9 +2851,15 @@ CGB-BTF:
   P:
     0: {code: CGB-BTFP-0, is_synthetic: false, md5: 75BE6E3561908E705D9E790B34EDDB4D,
       name: 'Tony Hawk''s Pro Skater (USA, Europe)', revision: 0}
+  E:
+    0: {code: CGB-BTFE-0, is_synthetic: false, md5: 75BE6E3561908E705D9E790B34EDDB4D,
+      name: 'Tony Hawk''s Pro Skater (USA, Europe)', revision: 0}
 CGB-BTG:
   E:
     0: {code: CGB-BTGE-0, is_synthetic: false, md5: 0454B25266D645990B63B5B406672DC2,
+      name: 'Tony Hawk''s Pro Skater 2 (USA, Europe)', revision: 0}
+  P:
+    0: {code: CGB-BTGP-0, is_synthetic: false, md5: 0454B25266D645990B63B5B406672DC2,
       name: 'Tony Hawk''s Pro Skater 2 (USA, Europe)', revision: 0}
 CGB-BTH:
   J:
@@ -3048,6 +3071,9 @@ CGB-BWF:
 CGB-BWG:
   P:
     0: {code: CGB-BWGP-0, is_synthetic: false, md5: 4E1A5F02CCE49842D4717A8B0CE501F5,
+      name: 'Wendy - Every Witch Way (USA, Europe)', revision: 0}
+  E:
+    0: {code: CGB-BWGE-0, is_synthetic: false, md5: 4E1A5F02CCE49842D4717A8B0CE501F5,
       name: 'Wendy - Every Witch Way (USA, Europe)', revision: 0}
 CGB-BWI:
   J:
@@ -3464,6 +3490,9 @@ DMG-A37:
 DMG-A3B:
   E:
     0: {code: DMG-A3BE-0, is_synthetic: false, md5: 28737A5C760938A9746FA9E1A2FCEFC6,
+      name: 'Batman Forever (USA, Europe)', revision: 0}
+  P:
+    0: {code: DMG-A3BP-0, is_synthetic: false, md5: 28737A5C760938A9746FA9E1A2FCEFC6,
       name: 'Batman Forever (USA, Europe)', revision: 0}
   J:
     0: {code: DMG-A3BJ-0, is_synthetic: true, md5: 53D8596868FE081CEF40ECC02D463EA3,
@@ -4188,6 +4217,9 @@ DMG-ADC:
 DMG-ADD:
   E:
     0: {code: DMG-ADDE-0, is_synthetic: false, md5: 6E30394FD7EF4A4DC3FE1EDD9FC69F72,
+      name: 'Donkey Kong Land 2 (USA, Europe) (SGB Enhanced)', revision: 0}
+  P:
+    0: {code: DMG-ADDP-0, is_synthetic: false, md5: 6E30394FD7EF4A4DC3FE1EDD9FC69F72,
       name: 'Donkey Kong Land 2 (USA, Europe) (SGB Enhanced)', revision: 0}
   J:
     0: {code: DMG-ADDJ-0, is_synthetic: false, md5: 94D72BF09AA55761CFA723882DAFC131,
@@ -5264,6 +5296,10 @@ DMG-AMC:
     0: {code: DMG-AMCP-0, is_synthetic: false, md5: 25EC0916FF6F24A1878A9F30991D301D,
       name: 'Arcade Classic No. 1 - Asteroids & Missile Command (USA, Europe) (SGB
         Enhanced)', revision: 0}
+  E:
+    0: {code: DMG-AMCE-0, is_synthetic: false, md5: 25EC0916FF6F24A1878A9F30991D301D,
+      name: 'Arcade Classic No. 1 - Asteroids & Missile Command (USA, Europe) (SGB
+        Enhanced)', revision: 0}
 DMG-AMD:
   J:
     0: {code: DMG-AMDJ-0, is_synthetic: false, md5: 6832C643107D2966E17B3A52CF80A485,
@@ -5314,6 +5350,9 @@ DMG-AMO:
       name: Moguranya (Japan) (SGB Enhanced), revision: 0}
   P:
     0: {code: DMG-AMOP-0, is_synthetic: false, md5: F28ADE3926852A8AD2E449C274683956,
+      name: 'Mole Mania (USA, Europe) (SGB Enhanced)', revision: 0}
+  E:
+    0: {code: DMG-AMOE-0, is_synthetic: false, md5: F28ADE3926852A8AD2E449C274683956,
       name: 'Mole Mania (USA, Europe) (SGB Enhanced)', revision: 0}
 DMG-AMP:
   J:
@@ -5946,6 +5985,9 @@ DMG-ARI:
   P:
     0: {code: DMG-ARIP-0, is_synthetic: false, md5: AFEEC69D5BA3AFA3CE2279FCDA944576,
       name: 'Prince of Persia (USA, Europe) (En,Fr,De,Es,It) (GB Compatible)', revision: 0}
+  E:
+    0: {code: DMG-ARIE-0, is_synthetic: false, md5: AFEEC69D5BA3AFA3CE2279FCDA944576,
+      name: 'Prince of Persia (USA, Europe) (En,Fr,De,Es,It) (GB Compatible)', revision: 0}
 DMG-ARJ:
   P:
     0: {code: DMG-ARJP-0, is_synthetic: false, md5: 55945A517D1E89003003D51C7EC938BE,
@@ -6490,6 +6532,9 @@ DMG-AW7:
   E:
     0: {code: DMG-AW7E-0, is_synthetic: false, md5: 669A4ECF89794505591B36D617E51F8A,
       name: 'James Bond 007 (USA, Europe) (SGB Enhanced)', revision: 0}
+  P:
+    0: {code: DMG-AW7P-0, is_synthetic: false, md5: 669A4ECF89794505591B36D617E51F8A,
+      name: 'James Bond 007 (USA, Europe) (SGB Enhanced)', revision: 0}
 DMG-AWA:
   J:
     0: {code: DMG-AWAJ-0, is_synthetic: false, md5: C856CEE0ABFC387AAEF8C851CC2A67B8,
@@ -6522,6 +6567,9 @@ DMG-AWG:
 DMG-AWH:
   P:
     0: {code: DMG-AWHP-0, is_synthetic: false, md5: DAE7B7625D41D8A06266B09924154BB2,
+      name: 'R-Type DX (USA, Europe) (GB Compatible)', revision: 0}
+  E:
+    0: {code: DMG-AWHE-0, is_synthetic: false, md5: DAE7B7625D41D8A06266B09924154BB2,
       name: 'R-Type DX (USA, Europe) (GB Compatible)', revision: 0}
 DMG-AWI:
   J:
@@ -9487,6 +9535,9 @@ DMG-P7:
 DMG-P8:
   E:
     0: {code: DMG-P8E-0, is_synthetic: false, md5: E88EAB57AB4614966748280BF3C97F52,
+      name: 'Avenging Spirit (USA, Europe)', revision: 0}
+  X:
+    0: {code: DMG-P8X-0, is_synthetic: false, md5: E88EAB57AB4614966748280BF3C97F52,
       name: 'Avenging Spirit (USA, Europe)', revision: 0}
   J:
     0: {code: DMG-P8J-0, is_synthetic: true, md5: 2A457900607B2BF87D1377F066D7AA44,
