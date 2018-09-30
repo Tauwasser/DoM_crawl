@@ -82,10 +82,6 @@ CGB-A7G:
   J:
     0: {code: CGB-A7GJ-0, is_synthetic: true, md5: 0EE28078D6270DF663647E8A3E3FEAF6,
       name: Pocket GT (Japan), revision: 0}
-CGB-A7J:
-  E:
-    0: {code: CGB-A7JE-0, is_synthetic: true, md5: 8B3958E2D61921C787C9A40F4D3F13C0,
-      name: NBA In the Zone 2000 (USA), revision: 0}
 CGB-A89:
   J:
     0: {code: CGB-A89J-0, is_synthetic: true, md5: 3DBEFE8C7CA45427696016902C2EE452,
@@ -269,6 +265,9 @@ CGB-AJ7:
   P:
     0: {code: CGB-AJ7P-0, is_synthetic: false, md5: E3C757E5F4261E962CACC8A999EC0F87,
       name: NBA In the Zone 2000 (Europe), revision: 0}
+  E:
+    0: {code: CGB-AJ7E-0, is_synthetic: true, md5: 8B3958E2D61921C787C9A40F4D3F13C0,
+      name: NBA In the Zone 2000 (USA), revision: 0}
 CGB-AJE:
   J:
     0: {code: CGB-AJEJ-0, is_synthetic: true, md5: 2F93E10FD3392D96FFFCD10ABE7D9696,
