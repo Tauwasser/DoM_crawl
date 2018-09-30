@@ -5119,8 +5119,8 @@ DMG-AL:
   E:
     0: {code: DMG-ALE-0, is_synthetic: false, md5: 012EE0A196C03CCA91A43A9EADBECFB6,
       name: Altered Space - A 3-D Alien Adventure (USA), revision: 0}
-  J:
-    0: {code: DMG-ALJ-0, is_synthetic: true, md5: 3208CC9EE33A163CD7CAD242DB3E1F4A,
+  A:
+    0: {code: DMG-ALA-0, is_synthetic: true, md5: 3208CC9EE33A163CD7CAD242DB3E1F4A,
       name: Altered Space - A 3-D Alien Adventure (Japan), revision: 0}
   X:
     0: {code: DMG-ALX-0, is_synthetic: true, md5: B4AB37EE420C11285BE1C634C34F5726,
@@ -7959,8 +7959,7 @@ DMG-F1:
   A:
     1: {code: DMG-F1A-1, is_synthetic: false, md5: 8AC5C061641B2A8B4C44B46EF693AEEF,
       name: F-1 Race (World) (Rev A), revision: 1}
-  X:
-    0: {code: DMG-F1X-0, is_synthetic: true, md5: 3AD6A2E9C2872CD8F92D86E18332262C,
+    0: {code: DMG-F1A-0, is_synthetic: true, md5: 3AD6A2E9C2872CD8F92D86E18332262C,
       name: F-1 Race (World), revision: 0}
 DMG-F2:
   A:
@@ -8104,8 +8103,8 @@ DMG-FS:
     0: {code: DMG-FSJ-0, is_synthetic: false, md5: 7D99006D00431AC246817D4F61E49B59,
       name: Famista (Japan), revision: 0}
 DMG-FT:
-  E:
-    0: {code: DMG-FTE-0, is_synthetic: true, md5: 20E16379B6667AB17C512780BD9AE757,
+  A:
+    0: {code: DMG-FTA-0, is_synthetic: true, md5: 20E16379B6667AB17C512780BD9AE757,
       name: NFL Football (USA), revision: 0}
 DMG-FU:
   A:
@@ -8861,8 +8860,8 @@ DMG-L3:
   E:
     0: {code: DMG-L3E-0, is_synthetic: false, md5: B3F3D35F58A0EA3AFFC0EC6D4EE1183D,
       name: 'Alien 3 (USA, Europe)', revision: 0}
-  J:
-    0: {code: DMG-L3J-0, is_synthetic: true, md5: 4F5C4C439F1134177E02D72C794882BA,
+  A:
+    0: {code: DMG-L3A-0, is_synthetic: true, md5: 4F5C4C439F1134177E02D72C794882BA,
       name: Alien 3 (Japan), revision: 0}
 DMG-L4:
   A:
@@ -8994,8 +8993,8 @@ DMG-LT:
     0: {code: DMG-LTE-0, is_synthetic: false, md5: D345B97E4B43F20A01FA2E4EA4A63A2B,
       name: 'Lethal Weapon (USA, Europe)', revision: 0}
 DMG-LU:
-  X:
-    0: {code: DMG-LUX-0, is_synthetic: true, md5: E1D28CE25A61B4F623C3C8013CE55B89,
+  A:
+    0: {code: DMG-LUA-0, is_synthetic: true, md5: E1D28CE25A61B4F623C3C8013CE55B89,
       name: 'Lucle (Japan, Europe)', revision: 0}
 DMG-LW:
   E:
@@ -9119,8 +9118,7 @@ DMG-ML:
   A:
     1: {code: DMG-MLA-1, is_synthetic: false, md5: B259FEB41811C7E4E1DC200167985C84,
       name: Super Mario Land (World) (Rev A), revision: 1}
-  X:
-    0: {code: DMG-MLX-0, is_synthetic: true, md5: B48161623F12F86FEC88320166A21FCE,
+    0: {code: DMG-MLA-0, is_synthetic: true, md5: B48161623F12F86FEC88320166A21FCE,
       name: Super Mario Land (World), revision: 0}
 DMG-MM:
   A:
@@ -10736,8 +10734,8 @@ DMG-WJ:
     0: {code: DMG-WJA-0, is_synthetic: false, md5: D9D957771484EF846D4E8D241F6F2815,
       name: Wario Land - Super Mario Land 3 (World), revision: 0}
 DMG-WK:
-  X:
-    0: {code: DMG-WKX-0, is_synthetic: true, md5: C284B8A9019020336C89B680FB6552E4,
+  E:
+    0: {code: DMG-WKE-0, is_synthetic: true, md5: C284B8A9019020336C89B680FB6552E4,
       name: Star Hawk (Europe), revision: 0}
 DMG-WL:
   E:
@@ -10836,8 +10834,8 @@ DMG-X4:
     1: {code: DMG-X4J-1, is_synthetic: true, md5: 369BC7CDE60AC3F97F72FF605502797F,
       name: Nettou Samurai Spirits (Japan) (Rev A) (SGB Enhanced), revision: 1}
 DMG-X8:
-  X:
-    0: {code: DMG-X8X-0, is_synthetic: true, md5: 261EC744FCF7A4EB5A6025C48C0538A3,
+  E:
+    0: {code: DMG-X8E-0, is_synthetic: true, md5: 261EC744FCF7A4EB5A6025C48C0538A3,
       name: 'Monster Max (Europe) (En,Fr,De,Es,It,Nl)', revision: 0}
 DMG-XA:
   X:
