@@ -10832,11 +10832,11 @@ DMG-WS:
   E:
     0: {code: DMG-WSE-0, is_synthetic: true, md5: 63098FDE8F2DCB977C9A8F0389E0D033,
       name: Star Wars (USA), revision: 0}
-    1: {code: DMG-WSE-1, is_synthetic: true, md5: CB1DCE08C78C509A876C494D6333F45C,
-      name: 'Star Wars (USA, Europe) (Rev A)', revision: 1}
   X:
     0: {code: DMG-WSX-0, is_synthetic: true, md5: 8A874449C207AF6E4726337CA899E35A,
       name: Star Wars (Europe), revision: 0}
+    1: {code: DMG-WSX-1, is_synthetic: true, md5: CB1DCE08C78C509A876C494D6333F45C,
+      name: 'Star Wars (USA, Europe) (Rev A)', revision: 1}
 DMG-WT:
   E:
     0: {code: DMG-WTE-0, is_synthetic: true, md5: 29C71C474C2FA00EEAC79DDB55C2C174,
