@@ -11,12 +11,22 @@ def main():
 
     # argument parser
     ap = argparse.ArgumentParser()
+    ap.add_argument('--keyset', default='EPU', help='Region codes to check for difference.')
     ap.add_argument('infile', nargs='+', help='CSV input files.')
     ap.add_argument('outfile', help='XLS output file.')
     args = ap.parse_args()
     
     infiles = args.infile
     outfile = args.outfile
+    keyset = args.keyset
+    
+    if (len(keyset) < 2 or len(keyset) > 3):
+        print('Keyset must be two to three characters long')
+        return -1
+    
+    k0 = keyset[0]
+    k1 = keyset[1]
+    k2 = keyset[-1]
     
     metadata = dict() # MD5 to Code, full serial
     result_wb = xlwt.Workbook(encoding='UTF-8')
@@ -82,7 +92,7 @@ def main():
                 else:
                     code = rom_parts[1]
                 
-                if (code.endswith('P') or code.endswith('E') or code.endswith('U')):
+                if (code[-1] in keyset):
                     game = code[:-1]
                     region = code[-1]
                     if (game not in disjoint_data):
@@ -104,8 +114,8 @@ def main():
         if (len(v) > 1):
             md5s = set([v[e]['md5'] for e in v])
             if (len(md5s) > 1):
-                key0 = 'P' if 'P' in v else 'U'
-                key1 = 'E' if 'E' in v else 'U'
+                key0 = k0 if k0 in v else k2
+                key1 = k1 if k1 in v else k2
                 row = [v[key0]['md5'], v[key1]['md5'], v[key0]['rom'], v[key1]['rom'], v[key0]['name'], v[key1]['name']]
                 row = [str(e) for e in row]
                 for ix, e in enumerate(row):
